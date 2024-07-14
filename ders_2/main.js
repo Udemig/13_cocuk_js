@@ -9,7 +9,7 @@ document.write(
 
 // Bu şekilde değişken ve metin ifadeleri kullanabiliriz.Fakat bunun daha kolay bir yolu mevcuttur.
 
-// * Literals Template(backtick) ``: Backtickler bizlere direkt değişken kullanımı noktasında yardımcı olur.
+// * Literal Template(backtick) ``: Backtickler bizlere direkt değişken kullanımı noktasında yardımcı olur.
 
 document.write(
   `Malatyada hava sıcaklığı ${havaSıcaklığı} derecedir.` + "<br/>"
