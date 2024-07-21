@@ -30,7 +30,7 @@ document.write(typeof sayı + "<br/>");
 var kurum = "Udemig";
 var ders = "Javascript";
 
-var metin = ` Merhaba yazılım eğitiminin en iyi akademisi olan ${kurum} den selamlar. ${ders} dersine hoşgeldiniz. `;
+var metin = ` Merhaba yazılım eğitiminin en iyi akademisi olan ${kurum}  den selamlar. ${ders} dersine hoşgeldiniz. `;
 
 document.write(metin + "<br/>");
 
@@ -94,7 +94,7 @@ document.write(
   Math.ceil(number) + "<br/>"
 );
 
-// Math.ceil ==> Sayıyı  bir alt tamsayıya yuvarlar.
+// Math.floor ==> Sayıyı  bir alt tamsayıya yuvarlar.
 document.write(
   "Sayının bir alt tamsayıya yuvarlanmış hali :",
   Math.floor(number) + "<br/>"
