@@ -45,6 +45,7 @@ function toplama() {
   document.write(`Toplama Sonuç: ${sonuç} ` + "<br/>");
 }
 toplama();
+toplama();
 
 // ! Fonksiyonlarda Parametre Kavramı
 
