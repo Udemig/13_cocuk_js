@@ -1,0 +1,30 @@
+/* title1.style.backgroundColor = "red";
+title1.style.fontSize = "45px";
+title1.style.color = "#ffff";
+title1.style.padding = "32px";
+title1.style.fontWeight = "bold";
+title1.style.borderRadius = "20px"; */
+
+.title {
+  background-color: red;
+  font-size: 45px;
+  color: #fff;
+  padding: 32px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.student {
+  background-color: deeppink;
+  text-align: center;
+  border: 5px solid gold;
+  font-size: 44px;
+  padding: 20px;
+}
+
+.container {
+  background-color: antiquewhite;
+  width: 500px;
+  height: 500px;
+  margin-top: 30px;
+}
