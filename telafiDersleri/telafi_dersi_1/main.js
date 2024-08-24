@@ -65,9 +65,10 @@ console.log(`Merhaba ${isim} Js dersleri nasıl gidiyor ?`);
 
 
 * >
-* >
+* <
 * >=
 * <=
+* ==
 
 */
 

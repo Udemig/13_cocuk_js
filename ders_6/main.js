@@ -108,6 +108,6 @@ addBtn.addEventListener("click", addDiv);
 
 // * document içerisinde bir eleman yaratmak için ==>  document.createElement metodu kullanılır.Bu metodu çalıştırıken () içerisinde '' arasında hangi elemanı oluşturacağımız belirtilir.
 
-// * document içerisinde oluşturulan bir elemanın içeriği  ! ! 'textContent'  ile ile güncellenir.
+// * document içerisinde oluşturulan bir elemanın içeriği 'textContent'  ile ile güncellenir.
 
 // * document içerisinde bir elemana elaman eklemek için document.appendChild metodu kullanılır.
