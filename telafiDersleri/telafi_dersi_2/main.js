@@ -17,7 +17,7 @@ document.write(
 );
 // ?  Math.ceil() ==> Verilen sayıyı en yakın bir üst tamsayıya yuvarlar yuvarlar.
 document.write(
-  `Sayıyı en yakın bir alt üst sayıya yuvarla: ${Math.ceil(sayı)} <br/> `
+  `Sayıyı en yakın bir  üst sayıya yuvarla: ${Math.ceil(sayı)} <br/> `
 );
 // ? toFixed ==> Ondalıklı bir sayının . dan sonra kaç basamaktan oluşmasını istiyorsak bunu belirtme imkanı sunar.
 document.write(`Noktadan sonra 2 basamaklı sayı: ${sayı.toFixed(2)} <br/> `);
@@ -104,7 +104,7 @@ document.write(`Arabalar Dizisi-2: ${arabalar}  <br/>`);
 arabalar.unshift("Honda");
 document.write(`Arabalar Dizisi-3: ${arabalar}  <br/>`);
 
-// ! ==> Dizinin başlangıcından eleman çıkarmak için kullanılır.
+// ! shift ==> Dizinin başlangıcından eleman çıkarmak için kullanılır.
 arabalar.shift();
 document.write(`Arabalar Dizisi-4: ${arabalar}  <br/>`);
 document.write(`---------------------------------------------- <br/>`);
