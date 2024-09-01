@@ -1,0 +1,37 @@
+.başlık {
+  background-color: brown;
+  text-decoration: none;
+  padding: 10px 15%;
+  font-size: 30px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+}
+
+.button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: firebrick;
+  color: white;
+}
+
+.dark-light-btn {
+  border: none;
+  padding: 10px 15px;
+  float: right;
+  background-color: #f7eed3;
+  color: #674636;
+  border-radius: 10px;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+body {
+  height: 100vh;
+}
