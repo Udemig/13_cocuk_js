@@ -1,0 +1,149 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Css Sıfırlama */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Ortak Css */
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-color: #2e2e2e;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Container */
+.container {
+  background-color: #fff;
+  width: 70vw;
+  max-width: 600px;
+  min-height: 60vh;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 0 20px #a02334;
+}
+/* Konum Kısımı */
+.locations {
+  display: flex;
+  justify-content: space-between;
+}
+.locations button {
+  font-size: 16px;
+}
+/* Arama Kısımı */
+.search {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 40px 0;
+}
+.search form {
+  display: flex;
+  gap: 10px;
+}
+.search form input {
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.search button,
+.search span {
+  font-size: 17px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.search button:hover {
+  scale: 1.2;
+}
+
+/* Hava Durumu Kısımı */
+
+.date,
+.city,
+.status {
+  text-align: center;
+}
+
+.city {
+  margin: 10px 0;
+}
+
+.status {
+  color: #29d4d4;
+}
+
+.info {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 70px 0;
+}
+.info .icon,
+.degree {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.info div p {
+  font-size: 13px;
+  margin: 10px 0;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+/* 
+
+ * Aşağıdaki yapıda :nth-child(1) denilince bu yapı çalışmadı.Çünkü   :nth-child() metodu bir kapsayıcı içerisindeki ilk elemana css uygular.Fakt bu örnekte bizim şunu dememiz gerek :nth-of-type() metodu çalışsın.Bu sayede spanlar arasındaki 1. elemanı seçecek
+ 
+
+
+*/
+.wrapper div span:nth-of-type(1) {
+  font-size: 14px;
+}
+.wrapper div span:nth-of-type(2) {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    max-width: unset;
+    max-height: unset;
+    border-radius: 0;
+    padding: 100px 20px 50px 20px;
+    /* ! Buradaki unset yapısı öncesinde ayarlanan yapılar çalışmasını engeledi. */
+  }
+}

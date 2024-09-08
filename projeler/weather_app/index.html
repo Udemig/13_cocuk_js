@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>13_çocuk_js_proje-1</title>
+    <!-- * Css Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- * Favıcon  -->
+    <link rel="shortcut icon" href="./image/weather.png" type="image/x-icon" />
+    <!-- Fontawesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- * Container -->
+    <div class="container">
+      <!-- * Konum Alanı -->
+      <div class="locations">
+        <button>London</button>
+        <button>Sydney</button>
+        <button>İstanbul</button>
+        <button>Tokyo</button>
+        <button>Paris</button>
+      </div>
+      <!-- * Arama Kısımı -->
+      <div class="search">
+        <form>
+          <input type="text" placeholder="şehiri aratın" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          <button><i class="fa-solid fa-location-dot"></i></button>
+        </form>
+        <div>
+          <span> °C</span>
+          /
+          <span> °F</span>
+        </div>
+      </div>
+      <!-- * İnfo Kısımı -->
+      <p class="date">
+        <span id="day">Sunday, 8 Sep 2024</span> |
+        <span id="time">Lokal Saat: 05:39 PM</span>
+      </p>
+      <h3 class="city">Antalya,Tr</h3>
+      <p class="status">Clouds</p>
+      <div class="info">
+        <div class="icon">
+          <img src="./image/images.jpeg" width="50" alt="" />
+        </div>
+        <div class="degree">
+          <span>24.1°</span>
+        </div>
+        <div class="info-area">
+          <p>
+            <i class="fa-solid fa-temperature-three-quarters"></i>
+            <span>Hissedilen:</span>
+            <span class="feel">23.87°</span>
+          </p>
+          <p>
+            <i class="fa-solid fa-droplet"></i>
+            <span>Nem:</span>
+            <span class="hum">50%</span>
+          </p>
+          <p>
+            <i class="fa-solid fa-wind"></i>
+            <span>Rüzgar:</span>
+            <span class="wind">5.66km/h</span>
+          </p>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div>
+          <i class="fa-solid fa-sun"></i>
+          <span>Doğuş:</span>
+          <span id="rise">7:01</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-moon"></i>
+          <span>Batış:</span>
+          <span id="rise">8:29</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-up-long"></i>
+          <span>Yüksek:</span>
+          <span id="max">23°</span>
+        </div>
+        <div>
+          <i class="fa-solid fa-down-long"></i>
+          <span>Düşük:</span>
+          <span id="max">34°</span>
+        </div>
+      </div>
+    </div>
+    <!-- * Js Bağlantı -->
+    <script src="./main.js"></script>
+  </body>
+</html>
